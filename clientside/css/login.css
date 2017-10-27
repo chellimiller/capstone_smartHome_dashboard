@@ -1,0 +1,55 @@
+/*  \Website Colors:
+	    Black       - #000000
+     	White       - #FFFFFF
+        Light Grey  - #BDBAB4
+        Pink        - #FF6766
+        Green       - #97CE68
+        Blue        - #6BCBCA
+        Orange      - #FF9900
+
+*/
+
+.content {
+	left:                0;
+	text-align:          center;
+}
+
+.content #login {
+	background:          rgba(0,0,0,0.75);
+	display:             inline-block;
+	width:               25em;
+	margin:              5%;
+} .content #login form {
+	display:             inherit;
+	width:               100%;
+	margin:              1em 0em;
+} .content #login img {
+	width:               50%;
+	height:              auto;
+	margin:              1em 0em;
+	display:             inline-block;
+	color:               #FFFFFF;
+	font-size:           2em;
+}
+
+.content #login form input {
+	display:             inline-block;
+	width:               60%;
+	font-size:           inherit;
+	font-family:         inherit;
+	padding:             .5em 2em;
+	margin:              .5em 0em;
+	border-radius:       2em;
+	border:              none;
+	background-color:    #FFFFFF;
+	color:               #000000;
+} .content #login form input[type=submit] {
+	font-weight:         bold;
+	background-color:    #6BCBCA;
+	color:               #FFFFFF;
+	width:               50%;
+} .content #login form input[type=submit]:hover {
+	font-weight:         bold;
+	background-color:    #97CE68;
+	width:               50%;
+}
